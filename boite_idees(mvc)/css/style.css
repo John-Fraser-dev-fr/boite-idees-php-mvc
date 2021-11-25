@@ -1,0 +1,303 @@
+/****************** Page ***********************/
+#container{
+    background-color: #e9ebee;
+    width: 100%;
+    margin-top: 77px;
+}
+
+#section_gauche{
+
+    text-align: center;
+    border-right: 1px solid gainsboro;
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#section_milieu{
+    padding-top: 40px;
+}
+
+#section_droite{
+
+    text-align: center;
+    border-right: 1px solid gainsboro;
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row{
+    justify-content: center;
+}
+
+
+
+/************* Formulaire ***********************/
+.formulaire{
+    text-align: right;
+    
+}
+
+/************** Carte idée **********************/
+div.card.m-3.col-9.shadow.bg-body.rounded{
+    padding: 0;
+}
+
+
+/*********** Boutons "publier/valider" **********/
+button.btn.btn-primary {
+    border-color: #4060b8;
+}
+
+
+
+/******** Fenêtre alert **************************/
+div.alert.alert-danger.alert-dismissible.fade.show{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin-top: 77px;
+    text-align: center;
+}
+div.alert.alert-success.alert-dismissible.fade.show{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin-top: 77px;
+    text-align: center;
+}
+
+#card-check{
+    height:50px;
+}
+
+/**************** Bouton OK ************************/
+input.ok{
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 2px solid #4060b8 ;
+    color: #4060b8;
+}
+
+/***************** Bouton radio *****************/
+input[type="checkbox"].checkbox-3 {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 4px solid #3c9419;
+	background-clip: content-box;
+    background-color: white;
+	margin: 2px;
+    border-radius: 50%;
+}
+
+input[type="checkbox"].checkbox-3:checked {
+	background-color: #3c9419;
+}
+
+/*********************/
+input[type="checkbox"].checkbox-2{
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 4px solid #d8db23;
+	background-clip: content-box;
+    background-color: white;
+	margin: 2px;
+    border-radius: 50%;
+}
+input[type="checkbox"].checkbox-2:checked {
+	background-color: #d8db23;
+}
+/*********************/
+input[type="checkbox"].checkbox-1 {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 4px solid #dd8b1f;
+	background-clip: content-box;
+    background-color: white;
+	margin: 2px;
+    border-radius: 50%;
+}
+
+input[type="checkbox"].checkbox-1:checked {
+	background-color: #dd8b1f;
+}
+/*********************/
+input[type="checkbox"].checkbox-0 {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 4px solid #b91919;
+	background-clip: content-box;
+    background-color: white;
+	margin: 2px;
+    border-radius: 50%;
+}
+
+input[type="checkbox"].checkbox-0:checked {
+	background-color: #b91919;
+}
+
+/********* Info bulle ********/
+
+
+
+
+.info-4{
+  
+	height: 30px;
+    background-color: #4060b8;
+    margin-bottom: 5px;
+    border: 1px solid gainsboro;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+	
+  
+}
+
+.info-3{
+  
+	height: 30px;
+    background-color: #3c941980;
+    margin-bottom: 5px;
+    border: 1px solid gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+
+	
+  
+}
+
+.info-2{
+    
+	height: 30px;
+    background-color: #d8db2370;
+    border: 1px solid gainsboro;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+	
+  
+}
+
+.info-1{
+  
+	height: 30px;
+    background-color: #dd8b1f80 ;
+    border: 1px solid gainsboro;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+	
+    
+}
+
+.info-0{
+ 
+	height: 30px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+ 
+   
+ 
+    
+
+}
+
+
+/********* formulaire commentaire ********/
+
+#form-control{
+    border-radius: 50px;
+    width:300%;
+}
+
+/*********** Commentaires *************/
+#card-com{
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#date_jour{
+    padding-left: 3%;
+    color:grey;
+}
+
+div.card-footer{
+    border-top: none;
+}
+
+#card-check{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+
+.col{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/****************** Partie Admin ************/
+
+#tableau_admin{
+    margin-top: 70px;
+}
+
+
+
+
+.table thead th {
+    text-align: center;
+}
+
+.table td, .table th {
+    text-align: center;
+}
+
+#admin_container{
+    width: 100%;
+    margin-top: 77px;
+}
+
+
+.gauche_admin{
+    text-align: center;
+    border-right: 1px solid gainsboro;
+    padding-top: 50px;
+}
+
+#bouton_retour{
+    margin-top: 50px;
+}
+
+
+/****** page inscription ******/
+
+#container_inscription{
+    padding-top: 10%;
+}
+
+
+/****** page connexion ******/
+
+#container_connexion{
+    padding-top: 10%;
+}
+
+
